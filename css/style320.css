@@ -1,0 +1,57 @@
+@media screen and (max-width: 479px) {
+
+	.text2{
+		margin-top: 5px;
+	}
+
+	header .menu_list{
+		position: absolute;
+		z-index:5;
+		height: 43px;
+		width: 246px;
+		border: 1px solid #051116;
+		background: rgba(54, 41, 62, 0.9 );
+		border-radius: 10px;
+		overflow: hidden;
+		padding-left:0;
+		transition: height 0.2s linear;
+	}
+
+	header .menu_list:hover{
+		height: 260px;
+	}
+
+	.menu_list_item_link:hover {
+		border-bottom: 2px solid #edbfff;
+
+	}
+
+	header .menu_list_item{
+		display: block;
+		border-top: 1px solid #4f3d57;
+		margin-right: 0;
+		padding: 7px 0;
+		text-align: center;
+
+	}
+
+	header .menu_list_item:hover{
+		border-bottom: 2px solid #edbfff;
+		background: rgba(38, 29, 43, 0.9);
+	}
+
+	.menu_list_item_link{
+		display: inline;
+	}
+
+	.home{
+		display: none;
+	}
+
+	.text1{
+		margin-top: 194px;
+	}
+	.text2{
+		margin-top: 3px;
+	}
+}

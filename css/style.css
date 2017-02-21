@@ -1,0 +1,476 @@
+@font-face{
+	font-family: "League Gothic";
+	src: url(../fonts/LeagueGothicRegular.eot);
+	src: url(../fonts/league-gothic.regular.ttf);
+	src: url(../fonts/League Gothic.woff2);
+      	src: url(../fonts/League Gothic.woff);
+}
+
+@font-face{
+	font-family: "MyriadProRegular";
+	src: url(../fonts/MyriadProRegular/MyriadProRegular.eot);
+	src: url(../fonts/MyriadProRegular/MyriadProRegular.ttf);
+	src: url(../fonts/MyriadProRegular/MyriadProRegular.woff);
+	src: url(../fonts/myriadpro-regular.woff2);
+}
+
+@font-face{
+	font-family: "Open Sans";
+	src: url(../fonts/OpenSansLight.ttf);
+	src: url(../fonts/OpenSansRegular.woff);
+	src: url(../fonts/open-sans-v13-latin-regular.woff2);
+}
+
+@font-face{
+	font-family: "Open Sans ExtraBold";
+	src: url(../fonts/OpenSansExtraBold.ttf);
+	src: url(../fonts/Open Sans Extrabold.woff2);
+	src: url(../fonts/OpenSansExtraBold.woff);
+}
+
+body{
+	margin: 0;
+	padding:0;
+}
+
+header{
+	background: url(../img/bigphoto.jpg) center center;
+	background-size: cover;
+	padding-top: 70px;
+	height: 516px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #34263b;
+}
+
+.logo{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 7px;
+}
+
+.home{
+	width: 47px;
+	height: 29px;
+	text-align: center;
+	padding: 0;
+	margin: 0 auto;
+	font-family: "League Gothic", Arial, sans-serif;
+	font-size: 24px;
+	color: #fff;
+	text-transform: uppercase;
+	border-bottom: 2px solid #edbfff;
+	margin-bottom: 119px;
+}
+
+.menu{
+	width: 246px;
+	margin: 0 auto;
+}
+
+.menu_list_item{
+	display: inline-block;
+	margin-right: 37px;
+}
+
+.menu_list_item:last-child {
+	margin-right:0;
+}
+
+.menu_list_item_link{
+	display: block;
+	padding: 0 6px 0 7px;
+	color: #fff;
+	font: 24px "League Gothic", Arial, sans-serif;
+	text-decoration: none;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+	text-transform: uppercase;
+}
+
+.text1{
+	width: 193px;
+	margin: 0 auto;
+	color: #fefefe;
+	font-family: "League Gothic", Arial, sans-serif;
+	font-size: 36px;
+}
+
+.text2{
+	width: 215px;
+	margin: 0 auto;
+	color: #edbfff;
+	font-family: "League Gothic", Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 16px;
+	height: 15px;
+	overflow: hidden;
+}
+
+.text3{
+	display: none;
+}
+
+.form{
+	position: absolute;
+	top: 460px;
+	left: 42%;
+}
+
+.nav_slider input{
+	display: none;
+}
+
+.nav_slider > label {
+	display: inline-block;
+	height: 17px;
+	width: 17px;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+}
+
+.nav_slider > label:last-child {
+	position: absolute;
+	left: 2px;
+	top: 3px;
+	height: 11px;
+	width: 11px;
+	background: url(../img/sprite.png) -8px -33px no-repeat;
+	transition: all 0.2s ease-in-out;
+}
+
+.nav_slider > #slide1:checked~label:last-child {
+	left: 2px;
+}
+
+.nav_slider > #slide2:checked~label:last-child {
+	left: 24px;
+}
+
+.nav_slider > #slide3:checked~label:last-child {
+	left: 45px;
+}
+
+.nav_slider > #slide4:checked~label:last-child {
+	left: 66px;
+}
+
+.about_company{
+	height: 600px;
+	background: linear-gradient(to top, #37293e, #745183);
+	background: -moz-linear-gradient(top, rgba(118,82,132,1) 0%, rgba(54,41,61,1) 100%);
+	padding-top: 63px;
+	box-sizing: border-box;
+}
+
+section{
+	width: 261px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+}
+
+.icon{
+	display: inline-block;
+	width: 28px;
+	height: 38px;
+	background: url(../img/sprite.png)  -37px -11px no-repeat;
+	margin-right: 20px;
+}
+
+section > .heading{
+	font-family: "League Gothic", sans-serif;
+	font-size: 24px;
+	color: #fff;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #2d2837;
+	margin: 0;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 6px;
+}
+
+.about{
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	color: #f4f4f4;
+	text-shadow: 1px 1px 1px #2d2837;
+	margin-left: 52px;
+	line-height: 21px;
+	margin-top: 0;
+	vertical-align: top;
+	height: 63px;
+	overflow: hidden;
+}
+
+section> a{
+	color: #fff;
+	font-family: "League Gothic", sans-serif;
+	font-size: 17px;
+	text-transform: uppercase;
+	margin-left: 208px;
+	text-decoration: none;
+}
+
+.section2{
+	margin-bottom: 32px;
+}
+
+section> a:focus{
+	text-shadow: 0 0 4px #fff;
+}
+
+main{
+	height: 790px;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #e6e6e6;
+	padding-top: 70px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.quote{
+	width: 258px;
+	height: 251px;
+	background-color: #fff;
+	margin: 0 auto;	
+	padding-top: 22px;
+	position: relative;
+}
+
+.man{
+	position: absolute;
+	top: 7%;
+	left: -9%;
+}
+
+.h3first{
+	color: #454545;
+	font-family: "League Gothic", sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-left: 40px;
+	margin-top: 0;
+}
+
+.h3second{
+	color: #edbfff;
+	font-family: "League Gothic", sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-left: 40px;
+	display: block;
+	line-height: 20px;
+}
+
+blockquote{
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px; 
+	color: #454545; 
+	margin-top: 7px;
+	line-height: 21px;
+	height: 168px;
+	overflow: hidden;
+	letter-spacing: 0.4px;
+}
+
+.quote_slider{
+	position: absolute;
+	top: 45%;
+	left: 42%;
+}
+
+.quote_slider input{
+	display: none;
+}
+
+.quote_slider > label {
+	display: inline-block;
+	height: 17px;
+	width: 17px;
+	border-radius: 50%;
+	background: #fff;
+	cursor: pointer;
+	border: 1px solid #e8e8e8;
+}
+
+.quote_slider > label:last-child {
+	position: absolute;
+	left: 3px;
+	top: 3px;
+	height: 12px;
+	width: 12px;
+	background: url(../img/sprite.png) -8px -9px no-repeat;
+	transition: all 0.2s ease-in-out;
+}
+
+.quote_slider > #quote1:checked~label:last-child {
+	left: 2px;
+}
+
+.quote_slider > #quote2:checked~label:last-child {
+	left: 26px;
+}
+
+.quote_slider > #quote3:checked~label:last-child {
+	left: 49px;
+}
+
+.quote_slider > #quote4:checked~label:last-child {
+	left: 71px;
+}
+
+.updates_block{
+	width: 280px;
+	margin: 0 auto;
+}
+
+.updates{
+	margin-bottom:  10px;
+}
+
+.updates2{
+	margin-bottom: 16px;
+}
+
+.recent{
+	color: #454545;
+	font-family: "League Gothic", sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-top: 84px;
+	margin-bottom: 13px;
+}
+
+.image_updates{
+	width: 51px;
+	height: 51px;
+	background: url(../img/sprite.png) -158px -76px no-repeat;
+	display: inline-block;
+}
+
+.updates_text{
+	font-family: "Open Sans ExtraBold", sans-serif;
+	font-size: 16px;
+	color: #454545;
+	display: inline-block;
+	margin-left: 9px;
+	vertical-align: top;
+}
+
+.updates_text > p{
+	margin-bottom: 0;
+	margin-top: 2px;
+	width: 160px;
+	height: 24px;
+	overflow: hidden;
+}
+
+.updates_text>.date{
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+	width: 216px;
+}
+
+.more_posts{
+	color: #454545;
+	font-family: "League Gothic", sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: right;
+	margin-top: 4px;
+	margin-right: 6px;
+}
+
+.more_posts>a{
+	text-decoration: none;
+	color: #454545;
+}
+
+.brands_block{
+	background-color: #f9f9f9;
+	height: 420px;
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+
+.brands{
+	width: 240px;
+	margin: 0 auto;
+}
+
+.brand1{
+	display: inline-block;
+	margin-right: 43px;
+	width: 78px;
+	height: 70px;
+	background: url(../img/brands_sprite.png) 5px -3px no-repeat;
+}
+
+.brand2{
+	display: inline-block;
+	width: 89px;
+	height: 70px;
+	margin-right: 15px;
+	background: url(../img/brands_sprite.png) -72px -4px no-repeat;
+}
+
+.brand3{
+	display: inline-block;
+	margin-right: 43px;
+	width: 67px;
+	height: 73px;
+	background: url(../img/brands_sprite.png) -160px 1px no-repeat;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+
+.brand4{
+	display: inline-block;
+	width: 71px;
+	height: 70px;
+	margin-top: 50px;
+	background: url(../img/brands_sprite.png) -226px 4px no-repeat;
+}
+
+.brand5{
+	display: inline-block;
+	margin-right: 25px;
+	width: 110px;
+	height: 70px;
+	background: url(../img/brands_sprite.png) -301px -10px no-repeat;
+	margin-top: 50px;
+}
+
+.brand6{
+	display: inline-block;
+	width: 89px;
+	height: 76px;
+	background: url(../img/brands_sprite.png) -413px -4px no-repeat;
+}
+
+.categories{
+	display:none;
+}
+
+footer{
+	background: url(../img/footer.png) center center;
+	height: 200px;
+	padding-top: 45px;
+	box-sizing: border-box;
+}
+
+.copyright{
+	font-family: "Open Sans", sans-serif;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	margin-top: 0;
+}
+
+.copyright > span{
+	font-family: "Open Sans ExtraBold", sans-serif;
+}
+
+.footer_menu{
+	display: none;
+}

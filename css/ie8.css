@@ -1,0 +1,261 @@
+header{
+	background: url(../img/bigphoto.jpg) center center;
+	padding-top: 70px;
+	height: 845px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #34263b;
+}
+
+header .menu_list{
+	position: absolute;
+	z-index:5;
+	height: 40px;
+	width: 246px;
+	border: 1px solid #051116;
+	background: rgb(54, 41, 62);
+	border-radius: 10px;
+	overflow: hidden;
+	padding-left:0;
+}
+
+header .menu_list:hover{
+	height: 240px;
+}
+
+.menu_list_item_link:hover{
+	border-bottom: 2px solid #edbfff;
+}
+
+header .menu_list_item{
+	display: block;
+	border-top: 1px solid #4f3d57;
+	margin-right: 0;
+	padding: 7px 0;
+	text-align: center;
+}
+
+header .menu_list_item:hover{
+	border-bottom: 2px solid #edbfff;
+	background: rgb(38, 29, 43);
+}
+
+.menu_list_item_link{
+	display: inline;
+}
+
+.menu_list_item_link{
+	font: 22px "League Gothic", Arial, sans-serif;
+}
+
+.home{
+	display: none;
+}
+
+.dark_block{
+	display: block;
+	position: absolute;
+	top: 250px;
+	width: 100%;
+	height: 400px;
+	z-index: 2;
+	background-color: #7e7886;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=45, Style=4)";
+}
+
+.text1{
+	display: block;
+	width: 400px;
+	position: absolute;
+	margin-left: 8%;
+	margin-top: 210px;
+	z-index: 3;
+	font-size: 45px;
+	color: #fff;
+	font-weight: 100;
+	font-family: "League Gothic", Arial, sans-serif;
+}
+
+.text2{
+	margin-left: 8%;
+	margin-top: 260px;
+	width: 405px;
+	height: 30px;
+	font-size: 17px;
+	display: block;
+	position: absolute;
+	z-index: 3;
+	overflow: visible;
+}
+
+.text3{
+	display: block;
+	position: absolute;
+	color: #fff;
+	margin-left: 8%;
+	margin-top: 280px;
+	width: 500px;
+	letter-spacing: 0.1px;
+	z-index:3;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 16px;
+}
+
+.phone_back{
+	position: relative;
+	width: 121px;
+	height: 231px;
+	z-index: 4;
+	top: 200px;
+	margin-left: 62.25%;
+	background: url(../img/iphone_back.png) no-repeat;
+}
+
+.phone_front{
+	position: absolute;
+	width: 190px;
+	height: 370px;
+	z-index: 4;
+	top: 255px;
+	margin-left: 69.25%;
+	background: url(../img/iphone_front.png) no-repeat;
+}
+
+.phone_front .play {
+	display: block;
+	position: absolute;
+	top: 149px;
+	left: 61px;
+	height: 76px;
+	width: 76px;
+	background: url(../img/sprite.png) -16px -61px no-repeat;
+}
+
+.phone_front .play:hover {
+	background-position: -272px 0;
+}
+
+.form{
+	position: absolute;
+	top: 670px;
+	left: 70%;
+}
+
+.nav_slider input{
+	display: inline-block;
+}
+
+.about{
+	width: 236px;
+	height: 106px;
+}
+
+.about_company{
+	height: 600px;
+	padding-top: 60px;
+	background: url(../img/about_bg.png) repeat-x;
+}
+
+section{
+	width: 261px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+
+.icon{
+	display: inline-block;
+	width: 28px;
+	height: 38px;
+	background: url(../img/sprite.png)  -37px -11px no-repeat;
+}
+
+section > .heading{
+	font-family: "League Gothic", Arial, sans-serif;
+	font-size: 18px;
+	color: #fff;
+	margin: 0;
+	display: inline-block;
+	padding-top: 6px;
+}
+
+.about{
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 16px;
+	color: #f4f4f4;
+	margin-top: 0;
+	height: 63px;
+	overflow: hidden;
+}
+
+section> a{
+	color: #fff;
+	font-family: "League Gothic", Arial, sans-serif;
+	font-size: 13px;
+	margin-left: 180px;
+}
+
+.section2{
+	margin-bottom: 32px;
+}
+
+.quote_slider input{
+	display: inline-block;
+}
+
+.quote_slider > label {
+	display: none;
+}
+
+.quote_slider{
+	left: 46%;
+}
+.updates_text > p{
+	height: 21px;
+}
+
+.more_posts{
+	font-size: 14px;
+}
+
+.categories{
+	display: block;
+	height: 670px;
+	background-color: #ececec;
+	border-top: 1px solid #d8d8d8;
+	padding-top: 80px;
+	box-sizing: border-box;
+}
+
+.categories_heading960{
+	display: none;
+}
+
+.categories_heading960_1{
+	display: none;
+}
+
+.copyright_categories{
+	display: none;
+}
+
+.news_categories{
+	width: 448px;
+	margin: 0 auto;
+	margin-bottom: 52px;
+}
+
+.categories_heading{
+	font-family: "League Gothic", Arial, sans-serif;
+	font-size: 24px;
+	color: #454545;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.categories_text{
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 16px;
+	color: #787878;
+	margin-top:0;
+	line-height: 24px;
+}

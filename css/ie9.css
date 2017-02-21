@@ -1,0 +1,53 @@
+.menu{
+	width: 945px;
+}
+
+.main_content{
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+
+.about_company{
+	padding-top: 50px;
+	background: url(../img/about_bg.png) repeat-x;
+}
+
+section > .heading{
+	font-size: 18px;
+}
+
+section> a{
+	font-size: 13px;
+	margin-left: 180px;
+}
+
+.text1{
+	font-size: 45px;
+	width: 400px;
+}
+
+.text2{
+	width: 415px;
+	font-size: 17px;
+	overflow: visible;
+}
+
+.text3{
+	font-size: 16px;
+}
+
+.quote_slider{
+	left: 44%;
+	top: 430px;
+}
+
+.footer_menu_item_link{
+	font-size: 10px;
+}
+
+
+
+
+
+
+

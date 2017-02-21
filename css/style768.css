@@ -1,0 +1,306 @@
+@media screen and (min-width: 768px) and (max-width: 959px){	
+
+	header{
+		height: 800px;
+	}
+
+	.logo{
+		position: absolute;
+		left: 9%;
+		top: 70px;
+	}
+
+	.home{
+		display: none;
+	}
+
+	.menu_list_item_link{
+		display: inline;
+	}
+
+	.menu{
+		width: 635px;
+		margin: 0 auto;
+		margin-top: 75px;
+	}
+
+	.menu_list{
+		padding:0;
+	}
+
+	.menu_list_item{
+		display: inline-block;
+		margin-right: 30px;
+		height: 25px;
+	}
+
+	.last_menu_item{
+		margin-right:0;
+	}
+
+	.menu_list_item_link{
+		display: block;
+		padding: 0 6px 0 7px;
+		color: #fff;
+		font: 24px "League Gothic", Arial, sans-serif;
+		text-decoration: none;
+		text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+		text-transform: uppercase;
+	}
+
+	.menu_list_item_link:hover{
+		border-bottom: 2px solid #edbfff;
+	}
+
+	.dark_block{
+		display: block;
+		position: absolute;
+		top: 245px;
+		width: 100%;
+		height: 400px;
+		z-index: 2;
+		background-color: #7e7886;
+		opacity: 0.5;
+	}
+
+	.text1{
+		display: block;
+		float: left;
+		position: absolute;
+		margin-left: 12%;
+		z-index: 3;
+		margin-top: 164px;
+	}
+
+	.text2{
+		display: block;
+		position: absolute;
+		margin-left: 12%;
+		z-index: 3;
+		margin-top: 208px;
+	}
+
+	.text3{
+		display: block;
+		position: absolute;
+		color: #fff;
+		margin-top: 228px;
+		margin-left: 12%;
+		width: 274px;
+		height: 91px;
+		overflow: hidden;
+		z-index:3;
+		font-family: "Open Sans";
+		font-size: 16px;
+	}
+
+	.phone {
+		display: none;
+	}
+
+	.phone_back{
+		position: relative;
+		width: 121px;
+		height: 231px;
+		z-index: 4;
+		top: 107px;
+		margin-left: 61.5%;
+		background: url(../img/iphone_back.png) no-repeat;
+	}
+
+	.phone_front{
+		position: absolute;
+		width: 190px;
+		height: 370px;
+		z-index: 4;
+		top: 218px;
+		margin-left: 71.25%;
+		background: url(../img/iphone_front.png) no-repeat;
+	}
+
+	.phone_front .play {
+		display: block;
+		position: absolute;
+		top: 149px;
+		left: 61px;
+		height: 76px;
+		width: 76px;
+		background: url(../img/sprite.png) -16px -61px no-repeat;
+	}
+
+	.phone_front .play:hover {
+		background-position: -272px 0;
+	}
+
+	.form{
+		top: 682px;
+		left: 73.666667%;
+	}
+
+	.about_company{
+		height: 350px;
+		padding-left: 20px;
+	}
+
+	section{
+		display: inline-block;
+		width: 195px;
+		margin-right: 50px;
+	}
+
+	.section3{
+		margin-right: 20px;
+	}
+
+	.about{
+		height: 147px;
+	}
+
+	.more{
+		margin-left: 142px;
+	}
+
+
+	main{
+		height: 488px;
+		padding-top: 100px;
+	}
+	.quote{
+		display: inline-block;
+		width: 315px;
+		margin-left: 5%;
+	}
+
+	form{
+		display: inline-block;
+	}
+
+	.quote_slider{
+		left: 19%;
+		top:403px;
+	}
+
+	.updates_block{
+		display: inline-block;
+		width: 340px;
+		margin-left: 5.3125%;
+	}
+
+	.updates_text > p{
+		width: 260px;
+	}
+
+	.updates_text>.date{
+		width: 260px;
+	}
+
+	.recent{
+		margin-top: 0;
+	}
+
+	.brands_block{
+		height: 120px;
+		padding-top: 0;
+	}
+
+	.brands{
+		width: 88.520833%;
+		margin: 0 auto;
+		padding-top: 20px;
+	}
+
+	.brand3, .brand4, .brand5{
+		margin-top: 0;
+	}
+
+	.categories{
+		display: block;
+		height: 400px;
+		background-color: #ececec;
+		border-top: 1px solid #d8d8d8;
+		padding-top: 80px;
+		box-sizing: border-box;
+		padding-left: 25px;
+	}
+
+	.news_categories{
+		display: inline-block;
+		width: 189px;
+		margin-bottom: 52px;
+		margin-right: 50px;
+	}
+
+	.categories_heading{
+		font-family: "League Gothic", Arial, sans-serif;
+		font-size: 24px;
+		color: #454545;
+		text-transform: uppercase;
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+
+	.categories_heading960{
+		display: none;
+	}
+
+	.categories_heading960_1{
+		display: none;
+	}
+
+	.copyright_categories{
+		display: none;
+	}
+	
+	.categories_text{
+		font-family: "Open Sans";
+		font-size: 16px;
+		color: #787878;
+		margin-top:0;
+		line-height: 24px;
+		height: 196px;
+		overflow: hidden;
+	}
+
+	.footer_menu{
+		display: block;
+		width: 435px;
+		margin: 0 auto;
+		padding-left: 0;
+		margin-bottom: 38px;
+	}
+
+	.footer_menu_item{
+		display: inline-block;
+		margin-right: 20px;
+		margin-left: 0;
+	}
+
+	.last_footer_item{
+		margin-right: 0;
+	}
+
+	.footer_menu_item_link{
+		display: block;
+		color: #fff;
+		font: 20px "League Gothic", Arial, sans-serif;
+		text-decoration: none;
+		text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+		text-transform: uppercase;
+	}
+
+	.footer_content{
+		width: 625px;
+		margin: 0 auto;
+	}
+
+	.copyright{
+		text-align: right;
+	}
+
+	.footer_menu{
+		margin-left: 0;
+	}
+}
+
+
+
